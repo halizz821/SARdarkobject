@@ -4,4 +4,6 @@
 For more information and detailed implementation, please refer to the research paper:
 - A. S. Solberg, C. Brekke, and R. Solberg, "Algorithms for oil spill detection in #Radarsat and ENVISAT SAR images", Geoscience and Remote Sensing.
 
-## Note that your input image should include backscattering value in db (use: backscatter_dB = 10 * np.log10(backscatter))
+## Note: 
+- Your input image should include backscattering value in db (use: backscatter_dB = 10 * np.log10(backscatter))
+- Due to the large size of SAR data, I was unable to upload an image sample using this code. If you require a sample, please feel free to reach out to me.
